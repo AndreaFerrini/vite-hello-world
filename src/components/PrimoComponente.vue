@@ -11,7 +11,7 @@
 
     },
   }
-
+  
 </script>
 
 <template>
@@ -24,7 +24,7 @@
 <style scoped>
 
     template{
-        background-color: rgb(27, 27, 27);
+        background-color: rgb(26, 26, 26);
     }
 
     h1{

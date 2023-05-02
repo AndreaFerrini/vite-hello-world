@@ -13,18 +13,25 @@
 </script>
 
 <template>
-  <h1>La Mia Prima App Con Vite!</h1>
+  
   <PrimoComponente/>
 </template>
 
 <style scoped>
+  .logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
 
-  template{
-    background-color: rgb(27, 27, 27);
-  }
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
 
-  h1{
-    color: gold;
-  }
+.logo.vue:hover {
+  filter: drop-shadow(0 0 2em #42b883aa);
+}
+
 
 </style>
